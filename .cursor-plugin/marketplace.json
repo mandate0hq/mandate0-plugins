@@ -1,0 +1,13 @@
+{
+  "name": "mandate0",
+  "owner": {
+    "name": "mandate0"
+  },
+  "plugins": [
+    {
+      "name": "mandate0",
+      "source": "plugins/cursor",
+      "description": "Shop connected stores inside the spending limits you set in mandate0: search, check out, and get the receipt."
+    }
+  ]
+}

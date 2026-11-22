@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "mandate0": {
+      "type": "streamable-http",
+      "url": "https://platform.mandate0.com/api/mcp"
+    }
+  }
+}

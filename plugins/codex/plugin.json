@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mandate0",
+  "version": "0.1.0",
+  "description": "Shop connected stores inside the spending limits you set in mandate0: search, check out, and get the receipt.",
+  "author": { "name": "mandate0", "url": "https://www.mandate0.com" },
+  "homepage": "https://docs.mandate0.com/docs/mcp/clients",
+  "repository": "https://github.com/iankiku/mandate0",
+  "keywords": ["shopping", "checkout", "payments", "mcp", "agentic-commerce"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "mandate0",
+        "shortDescription": "Shop inside your limits",
+        "longDescription": "mandate0 lets ChatGPT and Codex buy physical goods for you from stores connected to mandate0, inside the spending limits you set: which stores, how much per purchase, and a budget. mandate0 enforces the limits on its server. The assistant checks your limits before it shops, asks you before anything outside them, never splits an order to fit under a limit, and gives you the order number and receipt when it is done. New connections use sandbox money until you choose live on the consent screen.",
+        "developerName": "mandate0",
+        "category": "Shopping",
+        "capabilities": ["Check spending limits", "Search connected stores", "Check out inside a mandate", "Ask the owner to approve", "Return the receipt"],
+        "websiteURL": "https://www.mandate0.com",
+        "supportURL": "https://github.com/iankiku/mandate0/issues",
+        "privacyPolicyURL": "https://www.mandate0.com/en/privacy",
+        "termsOfServiceURL": "https://www.mandate0.com/en/terms",
+        "defaultPrompt": [
+          "What can I spend with mandate0 right now?",
+          "Find a 12oz bag of whole-bean coffee in my connected stores.",
+          "Buy this product link inside my mandate."
+        ],
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      },
+      "review": {
+        "commerce": true,
+        "commerce_description": "Buys physical goods from stores connected to mandate0, inside spending limits the user set. Checkout completes on the store's own commerce system; mandate0 enforces the limits and returns the order number and receipt."
+      }
+    }
+  }
+}

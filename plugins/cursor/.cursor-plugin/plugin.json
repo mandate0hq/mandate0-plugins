@@ -1,0 +1,11 @@
+{
+  "name": "mandate0",
+  "version": "0.1.0",
+  "description": "Shop connected stores inside the spending limits you set in mandate0: search, check out, and get the receipt.",
+  "author": { "name": "mandate0" },
+  "homepage": "https://docs.mandate0.com/docs/mcp/clients",
+  "repository": "https://github.com/iankiku/mandate0",
+  "license": "MIT",
+  "keywords": ["shopping", "checkout", "payments", "mcp", "agentic-commerce"],
+  "logo": "assets/logo.png"
+}

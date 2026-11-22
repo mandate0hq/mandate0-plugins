@@ -1,0 +1,11 @@
+{
+  "name": "mandate0",
+  "version": "0.1.0",
+  "description": "Shop connected stores inside the spending limits you set in mandate0: search, check out, and get the receipt.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "mandate0": {
+      "httpUrl": "https://platform.mandate0.com/api/mcp"
+    }
+  }
+}

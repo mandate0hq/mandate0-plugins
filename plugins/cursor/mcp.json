@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "mandate0": {
+      "url": "https://platform.mandate0.com/api/mcp"
+    }
+  }
+}

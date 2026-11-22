@@ -1,0 +1,16 @@
+{
+  "name": "mandate0",
+  "description": "The mandate0 plugin for Claude: shop inside the limits you set.",
+  "owner": {
+    "name": "mandate0",
+    "url": "https://www.mandate0.com"
+  },
+  "plugins": [
+    {
+      "name": "mandate0",
+      "source": "./plugins/claude",
+      "description": "Shop connected stores inside your mandate0 spending limits and get the receipt.",
+      "category": "commerce"
+    }
+  ]
+}

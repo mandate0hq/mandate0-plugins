@@ -1,0 +1,16 @@
+{
+  "name": "mandate0",
+  "displayName": "mandate0",
+  "version": "0.1.0",
+  "description": "Let Claude shop for you inside the spending limits you set: search connected stores, check out, and get the receipt.",
+  "author": { "name": "mandate0", "url": "https://www.mandate0.com" },
+  "homepage": "https://docs.mandate0.com/docs/mcp/clients",
+  "repository": "https://github.com/iankiku/mandate0",
+  "license": "MIT",
+  "icon": "./.claude-plugin/icon.png",
+  "keywords": ["shopping", "checkout", "payments", "mcp", "agentic-commerce"],
+  "documentationUrl": "https://docs.mandate0.com/docs/mcp/clients",
+  "supportUrl": "https://github.com/iankiku/mandate0/issues",
+  "privacyPolicyUrl": "https://www.mandate0.com/en/privacy",
+  "termsOfServiceUrl": "https://www.mandate0.com/en/terms"
+}
